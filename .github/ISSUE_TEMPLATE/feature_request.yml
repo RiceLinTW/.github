@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose new functionality or a behavior change
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What is missing or painful today? Why now?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed behavior
+      description: What should happen? Describe the behavior, not the implementation.
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Affected area (optional)
+      description: Free text — module, feature, or component.
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Bullet list of observable outcomes that define "done".
+    validations:
+      required: true
+  - type: textarea
+    id: nongoals
+    attributes:
+      label: Non-goals (optional)
+    validations:
+      required: false
