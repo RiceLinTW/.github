@@ -1,0 +1,15 @@
+# Source of truth for shared labels across ricelintw repositories.
+# Run the sync-labels workflow to propagate changes to other repos.
+labels:
+  - name: "priority: critical"
+    color: "B60205"
+    description: "緊急，需立即處理"
+  - name: "priority: high"
+    color: "D93F0B"
+    description: "高優先，當前迭代處理"
+  - name: "priority: medium"
+    color: "E4A000"
+    description: "中優先，排入近期 backlog"
+  - name: "priority: low"
+    color: "0E8A16"
+    description: "低優先，有空再處理"
